@@ -1,0 +1,74 @@
+.label {
+  margin-right: 8px;
+  color: #333;
+}
+
+.dateInputDiv {
+  background-color: rgb(252, 224, 228);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.orderInputDiv {
+  background-color: rgb(227, 251, 252);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.orderRow {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100px;
+}
+
+.illust {
+  width: 200px;
+  height: 50px;
+  border: 1px solid blue;
+  margin-right: 20px;
+}
+
+.itemName {
+  width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.numItems {
+  width: 60px;
+  height: 40px;
+  font-size: 18px;
+  text-align: right;
+  align-items: center;
+}
+
+.wd-20 {
+  width: 20px;
+}
+
+.wd-50 {
+  width: 50px;
+}
+
+.wd-100 {
+  width: 100px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.textal-c {
+  text-align: center;
+}
+
+.itemContainer {
+  max-height: 60vh;
+  overflow-y: auto;
+}
