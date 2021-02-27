@@ -33,7 +33,7 @@ export default function recievedOrderInput () {
                 {/* 商品名でループ表示 */}
                 {itemNames[index].map((item) => {
                   return (
-                    <div key={item}>
+                    <div key={item} class={styles.itemRow}>
                       <li className={styles.orderRow}>
                         <div className={styles.illust}>Image</div>
                         <p className={styles.itemName}>{item}</p>

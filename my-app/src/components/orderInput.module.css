@@ -17,10 +17,13 @@
   border-radius: 8px;
 }
 
+.itemRow {
+  height: 60px;
+}
+
 .orderRow {
   display: flex;
   align-items: center;
-  flex: 1 1 100px;
 }
 
 .illust {
