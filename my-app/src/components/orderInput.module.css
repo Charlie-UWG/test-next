@@ -24,17 +24,20 @@
 .orderRow {
   display: flex;
   align-items: center;
+  padding-bottom: 2px;
+  border-bottom: 0.5px solid gray;
 }
 
 .illust {
   width: 200px;
   height: 50px;
-  border: 1px solid blue;
+  background-color: beige;
+  /* border: 1px solid blue; */
   margin-right: 20px;
 }
 
 .itemName {
-  width: 150px;
+  width: 200px;
   text-align: center;
   margin-right: 10px;
 }
