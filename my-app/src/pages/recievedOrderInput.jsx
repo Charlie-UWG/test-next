@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Link from "next/link"
 import styles from "../components/orderInput.module.css";
 
 export default function recievedOrderInput () {
@@ -53,7 +54,7 @@ export default function recievedOrderInput () {
           );
         })}
       </div>
-      <button>入力完了</button>
+      <Link href="./" ><button>入力完了</button></Link>
     </div>
   );
 };
