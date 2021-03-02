@@ -16,9 +16,22 @@
   align-items: stretch;
 }
 
-.button:not(:first-child) {
-  margin-top: 10px;
+.buttonArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+
+.button {
+  width: 60vw;
+  height: 60px;
+  align-content: center;
+  margin-top: 20px;
+}
+
+/* .button:not(:first-child) {
+} */
 
 .footer {
   width: 100%;

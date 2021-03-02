@@ -16,14 +16,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main class={styles.main}>
-        <h1 class={styles.title} >猫のひげ　受注・在庫管理アプリ</h1>
-        <Link href="./recievedOrderInput" >
-        <button class={styles.button} >入力画面</button>
-        </Link>
-        <button class={styles.button} >在庫管理</button>
-        <button class={styles.button} >注文サイクル確認</button>
-        <button class={styles.button} >管理画面</button>
+      <main className={styles.main}>
+        <h1 className={styles.title} >猫のひげ　受注・在庫管理アプリ</h1>
+        <div className={styles.buttonArea}>
+          <Link href="./recievedOrderInput" >
+          <button className={styles.button} >入力画面</button>
+          </Link>
+          <button className={styles.button} >在庫管理</button>
+          <button className={styles.button} >注文サイクル確認</button>
+          <button className={styles.button} >管理画面</button>
+        </div>
       </main>
 
       <footer className={styles.footer}>
